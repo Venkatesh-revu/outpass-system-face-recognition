@@ -1,0 +1,29 @@
+# =========================================
+# Outpass System - Face Recognition Project
+# Requirements File
+# =========================================
+
+pip install flask insightface opencv-python numpy
+
+# Web Framework
+Flask
+
+# Face Recognition
+insightface
+
+# Image Processing
+opencv-python
+
+# Numerical Operations
+numpy
+
+
+# =========================================
+# Outpass System - Face Recognition Project
+# Requirements File
+# =========================================
+
+Flask==2.3.2
+insightface==0.7.3
+opencv-python==4.8.0.76
+numpy==1.24.3

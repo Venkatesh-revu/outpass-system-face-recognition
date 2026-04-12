@@ -12,7 +12,6 @@ This project is a web application that tracks student entry and exit records usi
 - Python
 - OpenCV
 - InsightFace
-- (Add anything else you used)
 
 ## How It Works
 The system captures a student's image, extracts facial features using InsightFace, and compares them with stored data to identify the student. Based on recognition, entry or exit is recorded.

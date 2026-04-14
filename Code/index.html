@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<title>MINI-PROJECT</title>
+  <script src="login2.js"></script> 
+
+
+  <!-- <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    /* Set a style for all buttons */
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+    }
+    
+    /* Center the image and position the close button */
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+      position: relative;
+    }
+    
+    img.avatar {
+      width: 40%;
+      border-radius: 50%;
+    }
+    
+    .container {
+      padding: 16px;
+    }
+    
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      padding-top: 60px;
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+      border: 1px solid #888;
+      width: 80%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* The Close Button (x) */
+    .close {
+      position: absolute;
+      right: 25px;
+      top: 0;
+      color: #000;
+      font-size: 35px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: red;
+      cursor: pointer;
+    }
+    
+    /* Add Zoom Animation */
+    .animate {
+      -webkit-animation: animatezoom 0.6s;
+      animation: animatezoom 0.6s
+    }
+    
+    @-webkit-keyframes animatezoom {
+      from {-webkit-transform: scale(0)} 
+      to {-webkit-transform: scale(1)}
+    }
+      
+    @keyframes animatezoom {
+      from {transform: scale(0)} 
+      to {transform: scale(1)}
+    }
+    
+    /* Change styles for span and cancel button on extra small screens */
+    @media screen and (max-width: 300px) {
+      span.psw {
+         display: block;
+         float: none;
+      }
+      .cancelbtn {
+         width: 100%;
+      }
+    }
+    </style> -->
+
+
+
+
+</head>
+<body>
+	<header>
+	<img class="logo" src="rgukt_logo.jpg">
+		<h1  style="text-align: center;">Rajiv Gandhi University of Knowledge Technologies -A.P , Srikakulam</h1>
+		<h2 style="text-align: center;">Catering to the Educational needs of Gifted Rural Youth of AP</h2>
+	</header>
+	<hr>
+	<marquee class="p-name" scrollamount=8 loop=6>&rarr;Automated Outpass Updated System using Face Recognition&larr;</marquee>
+	<img src="blue_wallpaper.jpg">
+	  <div class="center">
+       <input type="checkbox" id="show">
+
+         <label for="show" class="show-btn">Admin log_in</label>
+         <label for="show" class="show-btn1">Security log_in</label>
+         <label class="show-btn2"><a href="https://rguktsklm.ac.in/" target="_blank">About</a></label>
+
+         <div class="container">
+            <label for="show" class="close-btn fas fa-times" title="close"></label>
+            <div class="text">
+               Login Form
+            </div>
+            <form action="#">
+               <div class="data">
+                  <label>Email</label>
+                  <input type="text" required placeholder="enter email address" id="email">
+               </div>
+               <div class="data">
+                  <label>Password</label>
+                  <input type="password" required placeholder="enter password" id="password">
+               </div>
+               <div class="forgot-pass">
+                  <a href="#">Forgot Password?</a>
+               </div>
+               <div class="btn">
+                  <div class="inner"></div>
+                  <a  href="#" ><input type="submit" id="valid" onclick="validate()"></a>
+                  
+                  <!-- <button type="submit" onclick="validate()">login</button> -->
+               </div>
+            </form>
+         </div>
+      </div>
+      <footer>
+   <div class="content">
+     <div class="box">
+       <div class="upper">
+         <div class="topic">About us</div>
+         <p>CodingLab is a channel where you can learn HTML,
+         CSS, and also JavaScript along with creative CSS Animations and Effects sdnfvuerygn verygfvhd hdfguery hgfverygfrh yrgfwjhfguwr sdhgeryfjurb yufguyfeu uyteurygerhjfwjf uygurfgrgurf uygjwrfgruj.</p>
+       </div>
+       <div class="lower">
+         <div class="topic">Contact us</div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>s170375@rguktsklm.ac.in</a>
+         </div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>s170378@rguktsklm.ac.in</a>
+         </div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>s170631@rguktsklm.ac.in</a>
+         </div>
+       </div>
+     <!--<div class="right box">-->
+         <div class="media-icons">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-youtube"></i></a>
+           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+       </form>
+   </div>
+   </div>
+   <div class="bottom">
+     <p>Copyright © 2022 <a href="#">RGUKT SKLM</a> All rights reserved</p>
+   </div>
+ </footer>
+
+</body>
+</html>
+	
